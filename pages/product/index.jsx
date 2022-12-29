@@ -6,7 +6,12 @@ const Index = () => {
   return (
     <div className="flex items-center h-screen gap-20 py-20 flex-wrap">
       <div className="relative md:flex-1 w-[80%] h-[80%] mx-20">
-        <Image src="/images/f1.png" alt="" layout="fill" objectFit="contain" />
+        <Image
+          src="/images/f1.png"
+          alt=""
+          fill
+          style={{ objectFit: "contain" }}
+        />
       </div>
       <div className="md:flex-1 md:text-start text-center">
         <Title addClass="text-6xl mb-8">Good Pizza</Title>
@@ -22,19 +27,19 @@ const Index = () => {
           <h4 className="text-xl font-bold">Choose the size</h4>
           <div className="flex items-center gap-x-20 md:gap-x-12 lg:gap-x-20 md:justify-start justify-center">
             <div className="relative w-8 h-8">
-              <Image src="/images/size.png" alt="" layout="fill" />
+              <Image src="/images/size.png" alt="" fill />
               <span className="absolute top-0 -right-6 text-xs bg-primary rounded-full px-[5px] font-medium">
                 Small
               </span>
             </div>
             <div className="relative w-12 h-12">
-              <Image src="/images/size.png" alt="" layout="fill" />
+              <Image src="/images/size.png" alt="" fill />
               <span className="absolute top-0 -right-6 text-xs bg-primary rounded-full px-[5px] font-medium">
                 Medium
               </span>
             </div>
             <div className="relative w-16 h-16">
-              <Image src="/images/size.png" alt="" layout="fill" />
+              <Image src="/images/size.png" alt="" fill />
               <span className="absolute top-0 -right-6 text-xs bg-primary rounded-full px-[5px] font-medium">
                 Large
               </span>

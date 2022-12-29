@@ -10,8 +10,9 @@ const CampaignItem = () => {
           src="/images/o1.jpg"
           className="hover:scale-105 transition-all"
           alt="photo"
-          layout="fill"
-          objectFit="cover"
+          cover="true"
+          width={150}
+          height={150}
         />
       </div>
       <div className="text-white">
