@@ -5,7 +5,7 @@ import { MdShoppingCart } from "react-icons/md";
 const CampaignItem = () => {
   return (
     <div className="bg-secondary flex-1 rounded-md py-5 px-[15px] flex items-center gap-x-4">
-      <div className="relative w-36 h-36 md:w-44 md:h-44 after:content-[''] border-[5px] border-primary rounded-full overflow-hidden ">
+      <div className="relative w-36 h-36 md:w-40 md:h-40 after:content-[''] border-[5px] border-primary rounded-full overflow-hidden ">
         <Image
           src="/images/o1.jpg"
           className="hover:scale-105 transition-all"
