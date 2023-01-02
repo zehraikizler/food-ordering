@@ -7,7 +7,7 @@ const MenuItem = () => {
     <div className="bg-secondary rounded-3xl">
       <div className="bg-[#f1f2f3] w-full h-[210px] grid place-content-center rounded-bl-[46px] rounded-tl-2xl rounded-tr-2xl">
         <div className="relative w-36 h-36 hover:scale-110 transition-all">
-          <Image src="/images/f1.png" alt="photo" fill />
+          <Image src="/images/f1.png" alt="photo" width={150} height={150} />
         </div>
       </div>
       <div className="text-white p-[25px]">
