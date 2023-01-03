@@ -2,7 +2,6 @@ import Head from "next/head";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
 import Home from "./home";
-import Input from "../components/form/Input";
 
 export default function Index() {
   return (
@@ -15,9 +14,6 @@ export default function Index() {
       </Head>
       <Header />
       <Home />
-      <div className="container p-20 mx-auto">
-        <Input />
-      </div>
       <Footer />
     </>
   );
