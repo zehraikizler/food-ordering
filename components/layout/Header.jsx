@@ -49,9 +49,9 @@ const Header = () => {
           )}
         </nav>
         <div className="flex items-center gap-x-4 text-white">
-          <a href="">
+          <Link href="/auth/login">
             <FaUserAlt className="hover:text-primary transation-all" />
-          </a>
+          </Link>
           <a href="">
             <FaShoppingCart className="hover:text-primary transation-all" />
           </a>
