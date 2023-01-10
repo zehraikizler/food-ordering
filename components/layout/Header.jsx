@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center h-full">
         <Logo />
         <nav
-          className={`sm:static absolute top-0 left-0 sm:w-auto sm:h-auto w-full h-screen sm:text-white text-black sm:bg-transparent bg-white sm:flex hidden  ${
+          className={`md:static absolute top-0 left-0 md:w-auto md:h-auto w-full h-screen md:text-white text-black md:bg-transparent bg-white md:flex hidden  ${
             isMenuModal === true && "!grid place-content-center"
           }`}
         >
