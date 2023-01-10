@@ -7,6 +7,7 @@ const Account = () => {
   const onSubmit = async (values, actions) => {
     await new Promise((resolve) => setTimeout(resolve, 4000));
     actions.resetForm();
+    console.log(values);
   };
 
   const { values, errors, touched, handleChange, handleSubmit, handleBlur } =
@@ -96,7 +97,9 @@ const Account = () => {
           />
         ))}
       </div>
-      <button className="btn-primary mt-5 ml-auto">Update</button>
+      <button className="btn-primary mt-5 ml-auto" type="submit">
+        Update
+      </button>
     </form>
   );
 };

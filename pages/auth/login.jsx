@@ -58,7 +58,9 @@ const Login = () => {
           ))}
         </div>
         <div className="flex flex-col w-full gap-y-3 mt-6">
-          <button className="btn-primary">LOGIN</button>
+          <button className="btn-primary" type="submit">
+            LOGIN
+          </button>
           <button className="btn-primary !bg-secondary">
             <i className="fa-brands fa-github mr-2 text-lg"></i>
             GITHUB

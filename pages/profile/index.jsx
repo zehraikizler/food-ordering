@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Accounts from "../../components/profile/Account";
+import Password from "../../components/profile/Password";
 
 const Profile = () => {
   const [tabs, setTabs] = useState(0);
@@ -58,7 +59,8 @@ const Profile = () => {
         </ul>
       </div>
 
-      <div>{tabs == 0 && <Accounts />}</div>
+      {tabs == 0 && <Accounts />}
+      {tabs == 1 && <Password />}
     </div>
   );
 };
