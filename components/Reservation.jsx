@@ -71,7 +71,7 @@ const Reservation = () => {
 
   return (
     <div className="container mx-auto py-12">
-      <Title addClass="text-[40px] mb-10">Book A Table</Title>
+      <Title addClass="mb-10">Book A Table</Title>
       <div className="flex justify-between flex-wrap-reverse gap-x-10 gap-y-6">
         <form className="md:flex-1 w-full" onSubmit={handleSubmit}>
           <div className="flex flex-col gap-y-3">

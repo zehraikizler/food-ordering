@@ -6,7 +6,7 @@ const MenuWrapper = () => {
   return (
     <div className="container mx-auto mb-16">
       <div className="w-full flex flex-col items-center">
-        <Title addClass="text-[40px]">Our Menu</Title>
+        <Title>Our Menu</Title>
         <div className="mt-10">
           <button className="bg-secondary text-white rounded-3xl px-6 py-2">
             All

@@ -45,9 +45,7 @@ const Card = () => {
           </table>
         </div>
         <div className="bg-secondary text-white md:w-auto w-full flex flex-col justify-center p-14">
-          <Title addClass="text-[40px] md:text-start text-center">
-            CARD TOTAL
-          </Title>
+          <Title addClass="md:text-start text-center">CARD TOTAL</Title>
           <div className="flex flex-col gap-y-2 mb-6 mt-12 md:text-start text-center">
             <span>
               <b>Subtotal:</b> $23

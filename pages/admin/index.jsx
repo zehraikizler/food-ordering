@@ -46,7 +46,7 @@ const Index = () => {
         className="flex flex-col items-center my-20 md:w-1/2 w-full mx-auto"
         onSubmit={handleSubmit}
       >
-        <Title addClass="text-[40px] mb-6">Admin Login</Title>
+        <Title addClass="mb-6">Admin Login</Title>
         <div className="flex flex-col gap-y-3 w-full">
           {inputs.map((input) => (
             <Input
