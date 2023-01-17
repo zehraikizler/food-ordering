@@ -1,8 +1,7 @@
 import React from "react";
 
 const Input = (props) => {
-  const { type, value, touched, errorMessage, placeholder, ...inputProps } =
-    props;
+  const { type, touched, errorMessage, placeholder, ...inputProps } = props;
   return (
     <div className="w-full">
       <label className="relative block cursor-text w-full">
@@ -20,7 +19,7 @@ const Input = (props) => {
         ) : (
           <span
             className={`absolute flex items-center h-full top-0 left-0 px-4 text-sm peer-focus:h-7 peer-focus:text-xs peer-valid:h-7 peer-valid:text-xs transition-all  
-            ${touched && errorMessage && value ? "!h-7 !text-xs" : ""}
+            ${touched && errorMessage ? "!h-7 !text-xs" : ""}
           `}
           >
             {placeholder}
