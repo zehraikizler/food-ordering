@@ -4,7 +4,7 @@ import Title from "../ui/Title";
 const Order = () => {
   return (
     <div className="flex flex-col flex-1 py-8 px-2 lg:px-8">
-      <Title>Password</Title>
+      <Title>Order</Title>
       <div className="flex items-center overflow-x-auto w-full mt-5">
         <table className="w-full text-sm text-center text-gray-500 min-w-[600px]">
           <thead className="text-xs text-gray-400 uppercase bg-gray-700">
